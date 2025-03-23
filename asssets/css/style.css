@@ -1,7 +1,9 @@
 *{
     box-sizing: border-box;
 }
-
+:root{
+    --header-bg:#10375C;
+}
 html{
     font-size: 62.5%;
 }
@@ -10,4 +12,77 @@ body{
     font-size: 1.6rem;
     font-family: "Sora", sans-serif;
 }
+/* commen */
+.btn{
+    display: inline-block;
+    min-width: 105px;
+    line-height: 60px;
+    background:#2E80CE;
+    color: #FFF;
+    text-align: center;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 400;
+border-radius: 999px;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    max-width: calc(100% - 48px);
+}
+/* header */
+.header{
+    background: var(--header-bg);
+    padding-top: 30px;
+    min-height: 100vh;
+}
 
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__list{
+    display: flex;
+}
+.action__login,
+.navbar__link{
+    padding:8px 21px;
+    color: #C9D2DA;
+    text-align: center;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+.navbar__link:hover,
+.navbar__link--active{
+   text-shadow: 1px 0 0 currentColor;
+   color: #fff;
+}
+.navbar__link--active::before{
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    right: 8px;
+    top: -3px;
+}
+
+.action__signup{
+    min-width: 144px;
+    line-height: 44px;
+    font-size: 1.6rem;
+}
+.action__login{
+    margin-right: 7px;
+}
