@@ -307,3 +307,63 @@ font-style: normal;
 font-weight: 400;
 line-height: 28px; /* 175% */
 }
+
+
+/* =======================take=================== */
+.take{
+    margin-top: 170px;
+}
+
+.take-take{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.take-img{
+    display: flex;
+    position: relative;
+}
+
+.img__1{
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.img__2{
+    width: 332px;
+    height: 370px;
+    object-fit: cover;
+    position: absolute;
+    left: 238px;
+    top: 121px;
+    border-radius: 6px;
+
+}
+
+.take-desc{
+   padding: 82px 160px 0px;
+}
+
+.take__heading{
+    color: #10375C;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px; /* 120% */
+    letter-spacing: -1px;
+}
+
+.take__desc{
+    color: #575F66;
+    width: 468px;
+    margin-top: 18px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+}
+
+.take__learn{
+    margin-top: 38px;
+}
