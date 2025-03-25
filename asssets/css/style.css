@@ -21,6 +21,35 @@ body{
     letter-spacing: -1px;
 }
 
+.control{
+    display: flex;
+    column-gap: 18px;
+    align-items: center;
+    
+}
+.dentist__btnn{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #575F66;
+    background: #FFF;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.next{
+    rotate: 180deg;
+}
+
+.dentist__btnn:hover{
+    background: #2E80CE;
+    border-color: #2E80CE;
+    color: #FFF;
+}
+
 .section-desc{
     color: #575F66;
     font-size: 1.8rem;
@@ -200,6 +229,7 @@ object-fit: cover;
     width: 470px;
     border-radius: 10px;
     transition: 0.25s;
+    cursor: pointer;
 }
 
 .service-item:hover{
@@ -265,6 +295,7 @@ object-fit: cover;
     padding: 43px;
     border-radius: 4px;
     background: #FFF;
+    cursor: pointer;
     border: 16px solid #EAF6FF;
 }
 
@@ -347,14 +378,6 @@ line-height: 28px; /* 175% */
    padding: 82px 160px 0px;
 }
 
-.take__heading{
-    color: #10375C;
-    font-size: 50px;
-    font-weight: 600;
-    line-height: 60px; /* 120% */
-    letter-spacing: -1px;
-}
-
 .take__desc{
     color: #575F66;
     width: 468px;
@@ -366,4 +389,60 @@ line-height: 28px; /* 175% */
 
 .take__learn{
     margin-top: 38px;
+}
+
+
+/* =================dentist================= */
+
+.dentist{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.dentist-list__img{
+    width: 270px;
+    height: 318px;
+    background: #EAF6FF;
+    border-radius: 6px;
+    object-fit: cover;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.dentist-list__img:hover{
+ transform: scale(1.1);
+}
+
+.dentist-btn{
+    margin-top: 38px;
+}
+
+.dentist-list{
+    margin-top: 70px;
+    display: flex;
+    gap: 30px;
+}
+
+.dentist-list__name{
+    color: #10375C;
+text-align: center;
+font-size: 16px;
+margin-top: 12px;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+.dentist-list__school{
+    color: #575F66;
+    text-align: center;
+    font-family: Sora;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px; /* 185.714% */
+}
+
+.dentist__btn{
+    margin-top: 38px;
+    justify-content: center;
 }
