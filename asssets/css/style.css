@@ -618,3 +618,113 @@ height: 2px;
 .btn-cta{
     margin-top: 34px;
 }
+
+/* ===================== footer===================*/
+.footer{
+    margin-top: 170px;
+    padding-top: 100px;
+    background: #10375C;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer__top{
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 1fr;
+    column-gap: 76px;
+}
+
+.footer__desc{
+    color: #A9B3BB;
+font-size: 1.6rem;
+margin-top: 21px;
+font-weight: 400;
+line-height: 1.75; /* 175% */
+}
+
+.footer__heading{
+    color: #FFF;
+font-size: 1.6rem;
+font-weight: 600;
+line-height: 1.75; /* 175% */
+}
+
+.footer__list{
+    margin: 20px 0 28px;
+}
+
+.footer__limk{
+    color: #A9B3BB;
+font-size: 1,4;
+font-weight: 400;
+line-height: 1.86; /* 185.714% */
+white-space: nowrap;
+}
+
+.footer__item{
+    margin-bottom: 10px;
+}
+.footer__limk:hover{
+    text-decoration: underline;
+   
+}
+
+.footer__social-btn{
+   padding: 0 10px;
+}
+
+.footer__social{
+    margin: 20px 0;
+}
+
+.footer-form{
+    display: flex;
+   gap: 12px;
+   margin-top: 10px;
+}
+
+.footer-form__input{
+    width: 212px;
+height: 46px;
+border-radius: 4px;
+border: 1px solid #406181;
+background: #10375C;
+color:#fff;
+outline: none;
+
+}
+
+.footer__form-submit{
+    width: 108px;
+height: 46px;
+border-radius: 4px;
+background: #2E80CE;
+cursor: pointer;
+color: #FFF;
+border: none;
+}
+
+.footer-form__input::placeholder{
+    color: #9CA8B1;
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 1.86; /* 185.714% */
+}
+
+.footer__copyright{
+    padding-bottom: 42px;
+}
+
+.copy__hr{
+    width: 1170px;
+height: 1px;
+background: #406181;
+}
+
+.copy__desc{
+    color: #AAB3BA;
+text-align: center;
+font-size: 1.4rem;
+font-weight: 400;
+line-height: 1.86; /* 185.714% */
+margin: 28px 42px 0;
+}
