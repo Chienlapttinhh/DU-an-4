@@ -446,3 +446,148 @@ line-height: 28px; /* 175% */
     margin-top: 38px;
     justify-content: center;
 }
+
+/* ===================install============== */
+.install__inner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 75px;
+    height: 427px;
+    border-radius: 4px;
+    background: #2E80CE;
+    margin: 180px 0 85px;
+}
+
+.install__img{
+position: absolute;
+bottom: 0;
+}
+
+.install__content{
+    min-width: 586px;
+}
+
+.install__heading{
+    max-width: 489px;
+    color: #fff;
+}
+
+.install__row{
+    margin-top: 38px;
+    display: flex;
+    column-gap: 28px;
+    align-items: center;
+}
+
+.install__desc{
+    margin-top: 18px;
+    max-width: 586px;
+    color: #FFF;
+font-size: 1.8rem;
+font-weight: 300;
+line-height: 1.67; /* 166.667% */
+}
+
+.install__btn-img:hover{
+    box-shadow: 0px  0px 11px 0px rgba(0,0,0,0.1);
+    transform: scale(1.1);
+    transition: 0.25s;
+}
+/* ==================blog================ */
+.blog{
+    padding: 85px 0;
+}
+
+.blog__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__content{
+    width: 40%;
+}
+
+.blog-item__thumb{
+    width: 270px;
+height: 172px;
+border-radius: 12px 12px 0px 0px;
+object-fit: cover;
+}
+
+.blog__heading{
+    max-width: 470ox;
+}
+
+.blog__more{
+    display: inline-block;
+    margin-top: 28px;
+    color: #10375C;
+    text-underline-offset: 5px;
+font-size: 1.8rem;
+font-weight: 600;
+line-height: 1.56; /* 155.556% */
+text-decoration-line: underline;
+}
+
+.blog__btn{
+    margin-top: 28px;
+    justify-content: flex-start;
+}
+
+.blog__list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 30px;
+}
+
+.blog-item__heading{
+    width: 224px;
+    color: #10375C;
+font-family: Sora;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 162.5% */
+}
+
+.blog-item__body{
+    padding: 18px 22px;
+    border: 2px;
+}
+
+.blog-item{
+    max-width: 270px;
+    transition: 0.25s;
+    border-radius: 12px;
+    border: 1px solid #EFF6FD;
+   
+}
+
+.blog-item:hover{
+    box-shadow: -23px 11px 11px 0px rgba(0,0,0,0.1);
+    transform: scale(1.1);
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid #EFF6FD;
+}
+
+.blog-item__desc{
+    width: 226px;
+    margin-top: 10px;
+    color: #575F66;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px; /* 171.429% */
+}
+
+.blog-item__more{
+    display: inline-block;
+    color: #10375C;
+    margin-top: 12px;
+font-size: 14px;
+font-weight: 400;
+}
+
