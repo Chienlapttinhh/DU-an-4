@@ -591,3 +591,30 @@ font-size: 14px;
 font-weight: 400;
 }
 
+/* =======================cta==================== */
+
+.cta{
+    background: #F6FBFF;
+}
+
+.cta-container{
+    padding: 100px 180px;
+     text-align: center;
+     margin-top: 170px;
+}
+
+hr{
+    width: 136px;
+    margin-top: 18px;
+height: 2px;
+   background: #2E80CE;
+}
+
+.cta-desc{
+    width: 617px;
+    margin: 18px auto 0;
+}
+
+.btn-cta{
+    margin-top: 34px;
+}
